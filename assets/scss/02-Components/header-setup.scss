@@ -1,0 +1,212 @@
+
+/****
+
+  Header Builder 
+
+**************/
+
+header#masthead {
+
+    #ast-desktop-header, #ast-mobile-header{ 
+        background: var(--full-header-background);
+    }
+
+    .ast-header-account-link.ast-account-action-link, .ast-header-account-link.ast-account-action-login, .ast-header-account-link.ast-account-action-login.customize-unpreviewable, .ast-header-break-point .ast-header-account-link {
+        cursor: pointer;
+        pointer-events: all;
+        fill: var(--member-login);
+    }
+    
+    /** Social **/
+    .ast-builder-social-element {
+        margin-left: 6px;
+        margin-right: 6px;
+        padding: 4px;
+    
+        background: transparent;
+    
+        border: 0px solid #000;
+        border-radius: 4px;
+    
+        color: var(--social-element-color)!important;
+      
+        vertical-align: middle;
+        transition: all 0.01s;
+     
+        justify-content: center;
+        align-items: center;
+    
+        svg {
+            fill: var(--social-element-color);
+        }
+        
+    }
+    
+    
+    /** Cart **/
+    
+    .ast-site-header-cart, .woocommerce .ast-site-header-cart  {
+        position: relative;
+        list-style-type: none;
+        margin-left: 0px;
+        padding-left: 0;
+        margin-bottom: 0;
+        order: 1;
+        color: var(--cart-fill-color);
+        border-color: var(--cart-border-color);
+        font-size: var(--header-button-font-size);
+        text-transform: var(--header-button-text-transform);
+    
+        .ast-cart-menu-wrap .count {
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            min-width: 1.9em; 
+            min-height: 1.3em; 
+            font-size: .5em;
+            line-height: 1.8;
+         
+            border-radius: 0 0 .3em .3em;
+            border-width: 2px;
+            border-style: solid;
+            padding: 0 .4em;
+        }
+    
+        .ast-cart-menu-wrap, .ast-addon-cart-wrap { 
+        
+            .count, .count:after, .ast-icon-shopping-cart:after {
+                color: var(--cart-fill-color);
+                border-color: var(--cart-fill-color);
+            }
+            .ast-woo-header-cart-info-wrap {
+                color: var(--cart-fill-color);
+                border-color: var(--cart-border-color);
+                font-weight: var(--header-button-font-weight)!important;
+                margin-right: 15px;
+            }
+        }
+        .woocommerce-mini-cart__total, .widget_shopping_cart .cart_list a, .woocommerce .ast-site-header-cart .widget_shopping_cart .cart_list a {
+            font-weight: 400;
+            padding: 0;
+            border-width: 0;
+            color: var(--primary-black);
+        }    
+    
+    }
+     
+    
+    /** Search **/
+    .ast-header-search .astra-search-icon {
+        color: var(--search-color);
+    }
+    
+    /** Site Branding **/
+    .site-branding {
+        line-height: 1;
+        align-self: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    @import '02-Components/header-top.scss';
+    @import '02-Components/header-middle.scss';
+    @import '02-Components/header-bottom.scss';
+    @import '02-Components/sticky-header.scss';
+    //@import '02-Components/transparent-header.scss';
+
+    @import '02-Components/main-menu.scss';
+
+}
+
+.ast-mobile-popup-drawer.active .ast-mobile-popup-inner {
+    background: var(--full-header-background);
+}
+
+/** Mobile **/
+
+
+.ast-header-break-point  { 
+
+    .ast-mobile-popup-drawer .ast-mobile-popup-inner {
+        color: var(--primary-white);
+    }
+
+    .ast-primary-header-bar {
+        border-bottom-width: 0rem;
+        border-bottom-color: var(--primary-orange);
+        border-bottom-style: solid;
+        background-color: var(--main-header-background-color);
+    
+    }
+    
+    .main-header-menu {
+        background-color: var(--main-header-background-color);
+        border-bottom-width: 0rem;
+        border-bottom-color: var(--primary-orange);
+        border-bottom-style: solid;
+    
+    }
+
+    [data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+        width: 3rem;
+        height: 3rem;
+        fill: var(--toggle-color);
+    } 
+
+    .main-navigation ul .menu-item .menu-link {
+        padding: 0 20px;
+        display: inline-block;
+        width: 100%;
+        border: 0;
+        border-bottom-width: 1px;
+        border-style: solid;
+        border-color: #eaeaea;
+        font-size: 1.75em;
+
+        li {
+            margin: 0 0 0 1rem;
+            padding: 0 1rem;
+            background-color: var(--main-menu-background-color);
+            border: var(--main-menu-border-size) var(--main-menu-border-style) var(--main-menu-border-color);
+            border-radius: var(--main-menu-border-radius); 
+            text-align: var(--main-menu-text-align);
+            white-space: nowrap;
+            font-family: var(--main-menu-font);
+      
+    
+            a {
+                color: var(--main-menu-color);
+                font-size: var(--main-menu-font-size);
+                font-weight: var(--main-menu-weight);
+                text-transform:  var(--main-menu-text-transform);
+            }
+        }
+
+        li a:hover,   li.current-menu-item > a.menu-link, li.current-page-item > a.menu-link,  li a .current-menu-item {
+            background: var(--main-menu-hover-background);
+            border-left: solid  0px var(--primary-dark-blue);
+            border-right: solid  0px var(--primary-dark-blue);
+            color: var(--main-menu-hover);
+        }
+    }
+    .ahfb-svg-iconset svg {
+        width: 3rem;
+        height: 3rem;
+        transition: none;
+        color: var(--toggle-color);
+    }
+
+    .ast-icon svg {
+        fill: var(--toggle-color);
+    }
+
+    .ast-mobile-header-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element), .ast-mobile-popup-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element) {
+        padding: 15px 20px;
+        background-color: var(--main-header-background-color);
+    }
+ }
+

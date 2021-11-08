@@ -1,0 +1,33 @@
+/** Product Tag **/
+
+.woocommerce-product-tags {
+    h2 { display: none; }
+
+    ul {
+        display: inline-flex;
+        flex-flow: row wrap;
+
+        li:first-child, li {
+            margin: .25rem 1rem;
+            background-color: var(--primary-black);
+            border: solid 1px var(--primary-orange)!important;
+            border-radius: 15rem;
+
+            a {
+                margin: 0 .5rem;
+                background-color: var(--primary-black);
+                color: var(--primary-white);
+            }
+
+            a:hover  {
+                color:  var(--primary-orange);
+                text-decoration: none;
+            }
+
+        }
+        li.current-cat a  {
+            color:  var(--primary-orange);
+            text-decoration: none;
+        }
+    }
+}

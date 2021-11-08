@@ -1,0 +1,29 @@
+.blog-layout-1{
+    background-color: rgba(0, 0, 0, 0.02);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 1px #d6dade;
+    transition: all 0.1s ease-in;
+}
+.blog-layout-1:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.blog-layout-1 .post-content, .blog-layout-1 .post-thumb {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+
+.blog-layout-1 .post-thumb h2.entry-title {
+    font-size: .7rem!important;
+}
+
+.read-more { display: none;
+}
+
+.ast-no-date-box{
+	padding:0;
+}

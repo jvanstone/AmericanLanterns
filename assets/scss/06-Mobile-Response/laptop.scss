@@ -1,0 +1,43 @@
+/****
+
+    Laptop Settings 
+
+******************/
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .ast-separate-container #primary, .ast-separate-container.ast-left-sidebar #primary, .ast-separate-container.ast-right-sidebar #primary {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ast-header-break-point .ast-primary-header-bar {
+    
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .ast-logo-title-inline .ast-site-identity {
+        padding: 1em 0;
+        
+        display: flex;
+        flex-flow: column;
+        vertical-align: middle;
+        align-items: center;
+        transition: all .2s linear;
+    }
+    
+    .site-header .site-description {
+        padding: .5rem;
+    }
+    
+    .footer-h-right {
+        text-align: right;
+    }
+    .wp-block-columns, .wp-block-column {
+        margin: 0rem 0;
+        padding: 0rem 0;
+    }
+}

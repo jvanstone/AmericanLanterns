@@ -1,0 +1,36 @@
+/****
+
+  Paragraphs
+
+**************/
+
+p { font-size: 1.5rem; }
+
+.entry-content {
+  p {
+    margin-bottom: .5rem;
+  }
+  p:last-child {
+    margin-bottom: 5rem;
+  }
+}
+
+p.add-to-top {
+    margin-top: 4rem!important;
+}
+
+.small-font {
+  font-size: .9rem;
+}
+
+.has-drop-cap:not(:focus)::first-letter {
+	float: left;
+	font-size: 10rem;
+	line-height: .68;
+	font-weight: 300;
+	margin: .05rem 1rem 0 0;
+	text-transform: uppercase;
+	font-style: normal;
+  color: var(--primary-white);
+  text-shadow: 2px 2px 2px var(--primary-green);
+}

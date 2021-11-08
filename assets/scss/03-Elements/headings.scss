@@ -1,0 +1,91 @@
+/****
+
+  Headings 
+
+
+**************/
+
+h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6, .site-title, .site-title a {
+    margin: 2rem 0;
+    font-family: var(--heading-font);
+    font-weight: var(--h1-font-weight);
+}
+
+h1, .entry-content h1 {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    line-height: var(--h1-line-height);
+    text-transform: var(--h1-text-transform);
+    
+}
+
+h2 {
+    color: var(--h2-color);
+    font-size: var(--h2-font-size);
+    font-family: var(--h2-font-family);
+    font-weight: var(--h2-font-weight);
+    line-height: var(--h2-line-height);
+    text-transform: var(--h1-text-transform);  
+    border-bottom: .12em solid var(--primary-purple);
+}
+
+.entry-content h2 { 
+    color: var(--h2-color);
+    font-weight: 700;
+   
+}
+
+h2.widget-title,  h2.contact-title {
+    margin: 1rem 0;
+    color: var(--h2-color);
+    font-size: 1.4rem!important;
+    font-weight: 900;
+    text-transform: capitalize;
+    border: 0!important;
+}
+.entry-title, .page-title {
+    color: var(--page-title-color);
+    font-family: var(--cursive-font);
+    font-size: 3rem;
+}
+
+
+h2.announce {
+    color: var(--primary-black);
+    font-size: 1rem !important;
+}
+
+
+
+
+.wp-block-cover  {
+
+    .front-header {
+        margin-top: 2rem;
+        padding: 0 4rem;
+        text-transform: uppercase;
+    
+    }
+    h1:not(.has-text-color) {
+        color: var(--h1-color);     
+        
+    }
+
+    h2:not(.has-text-color) {
+        color: var(--h2-color);     
+        
+    }
+
+    .wp-block-cover 
+
+    h3:not(.has-text-color) {
+        color: var(--primary-green);      
+        
+    }
+
+    h4 {
+        color: var(--primary-dark-gray)!important;
+    }
+}

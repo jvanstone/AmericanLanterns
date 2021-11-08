@@ -1,0 +1,61 @@
+/** Slick Slider **/
+.bx-wrapper {
+  margin-bottom: 0!important;
+  border-bottom: 0px solid white!important;
+
+}
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+
+}
+
+.eachslider_bx {
+  background-size: cover!important;
+  background-position: center center!important;
+  min-height: 37.5rem;
+ 
+}
+
+.eachslider_bx > a, .read_more_bx { 
+  margin: 1rem;
+  padding: 1rem;
+
+  background-color: var(--primary-green);
+  color: var(--primary-white);
+  text-decoration: none;
+}
+
+
+h4.bx_title {
+  margin: 20rem auto 0 auto;
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 4rem;
+  color: var(--primary-white);
+}
+
+h4.bx_title > .wp-block-button {
+  margin: 10px 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  h4.bx_title {
+   
+    margin-top: 1.75rem;
+    width: 80%;
+    font-size: 1.2rem !important;
+  } 
+
+}

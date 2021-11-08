@@ -1,0 +1,55 @@
+/****
+ 
+ Elementor
+ 
+ ****************/
+
+
+ .elementor-kit-276 {
+    --e-global-color-primary: var(--primary-color);
+    --e-global-color-secondary: var(--primary-black);
+    --e-global-color-text: var(--primary-black) ;
+    --e-global-color-accent: var(--accent-color);
+    --e-global-color-343a514: #A1E3F9;
+    --e-global-typography-primary-font-family: var( --primary-font);
+    --e-global-typography-primary-font-weight: 200;
+    --e-global-typography-secondary-font-family:  var( --primary-font);
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: var( --primary-font);
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: var(--cursive-font);
+    --e-global-typography-accent-font-weight: 200;
+}
+
+
+ .elementor-6 .elementor-element.elementor-element-b4fe42f > .elementor-widget-container {
+    background-color: var( --e-global-color-primary );
+    color: rgb(182,207,242);
+
+    
+}
+
+
+.elementor-281 .elementor-element.elementor-element-fdec4c5 .elementor-slide-heading, .elementor-281 .elementor-element.elementor-element-fdec4c5 .elementor-slide-heading a{
+    color: var( --e-global-color-primary );
+    text-decoration: none !important;
+}
+ 
+.elementor-button-wrapper .elementor-button {
+    border-color: var(--primary-orange);
+    background-color: var(--primary-orange);
+}
+
+/** Hide Testimonail Image **/
+.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    display: none;
+}
+.elementor-testimonial--align-center.elementor-testimonial--layout-image_inline .elementor-testimonial__image+cite {
+    text-align: center;
+}
+
+
+.elementor-281 .elementor-element.elementor-element-da6ba7c {
+    color: #FFFFFF;
+    font-size: .75rem!important;
+}

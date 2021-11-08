@@ -1,0 +1,40 @@
+
+/******
+
+    Links 
+
+**************/
+
+a, .page-title {
+    color: var(--main-link-color);
+}
+
+a:hover {
+    color: var(--main-link-hover);
+    text-decoration:  var(--main-link-hover-decoration);
+}
+
+a:focus { color: var(--primary-white);}
+
+.site-title a, .site-title a:visited {
+    color: var(--site-title-color);
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.site-title a:hover,  .site-title a:focus {
+    color: var(--site-title-hover);
+}
+a.ast-custom-button-link, a:hover.ast-custom-button-link {
+    color: var(--primary-black);
+}
+
+h2.entry-title a {
+    font-weight: 800 !important;
+}
+
+.no-underline a {
+    text-decoration: none !important;
+}
+
+

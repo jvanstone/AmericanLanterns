@@ -1,0 +1,14 @@
+/** Header Middle **/
+.ast-mobile-header-wrap .ast-primary-header-bar, .ast-primary-header-bar .site-primary-header-wrap {
+    min-height: 1rem; 
+}
+
+.ast-primary-header-bar {
+   padding: 1rem 0;
+   background-color: var(--main-header-background-color);
+   border-top: solid 0rem var(--primary-purple);
+   border-bottom: solid 0rem var(--primary-white);
+}
+
+
+

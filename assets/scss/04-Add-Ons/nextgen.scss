@@ -1,0 +1,71 @@
+/*************************************************************************
+
+
+  Next Gen 
+
+********************************/
+
+/*** Gallery ***/
+
+
+.ngg-navigation a.page-numbers, .ngg-navigation a.next, .ngg-navigation a.prev, .ngg-navigation span.page-numbers, .ngg-navigation span.next, .ngg-navigation span.prev, .ngg-navigation span.current {
+	background: var(--primary-yellow);
+	border: none;
+	border-radius: 2px;
+	box-shadow: none;
+	color: #fff;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 3px;
+	padding: 4px 8px;
+	text-decoration: none;
+	cursor: pointer !important;
+}
+
+.ngg-navigation span.current {
+	background: var(--primary-green);
+}
+
+/*** Lighbox ***/
+.sl-overlay {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #333;
+	opacity: .6;
+	display: none;
+	z-index: 1035;
+}
+
+.sl-wrapper .sl-navigation button {
+	position: fixed;
+	top: 50%;
+	margin-top: -22px;
+	height: 44px;
+	width: 22px;
+	line-height: 44px;
+	text-align: center;
+	display: block;
+	z-index: 10060;
+	font-family: Arial, Baskerville, monospace;
+	color: var(--primary-yellow);
+}
+
+.sl-wrapper .sl-close {
+	display: none;
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	z-index: 10060;
+	margin-top: -14px;
+	margin-right: -14px;
+	height: 44px;
+	width: 44px;
+	line-height: 44px;
+	font-family: Arial, Baskerville, monospace;
+	color: var(--primary-green);
+	font-size: 3rem;
+}

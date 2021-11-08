@@ -1,0 +1,21 @@
+/****
+
+ Main Content Area
+
+**************/
+
+#content.site-content {
+
+    background-color: var(--body-background-color);
+    background-repeat: no-repeat;
+    background-size: cover;                                         
+    background-position: center; 
+} 
+
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single:not(.ast-related-post), .ast-article-single {
+    margin-top: 0;
+    border-radius: var(--body-border-radius);
+    background-color: var(--body-article-color);
+}
+
+

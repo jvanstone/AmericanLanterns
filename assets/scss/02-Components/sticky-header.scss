@@ -1,0 +1,28 @@
+
+/**** 
+ 
+    Sticky Header Colors 
+    
+************/
+
+#ast-fixed-header  { 
+    border-bottom: .5rem solid var(--primary-white);
+
+   
+    .main-header-menu,  .main-header-menu > .menu-item > .menu-link, .ast-masthead-custom-menu-items,.ast-masthead-custom-menu-items a, .main-header-bar.ast-sticky-active, .main-header-bar.ast-sticky-active .main-header-menu > .menu-item > .menu-link, .main-header-bar.ast-sticky-active .ast-masthead-custom-menu-items, .main-header-bar.ast-sticky-active .ast-masthead-custom-menu-items a {
+    color: var(--sticky-header-color);
+    
+    }
+
+    .main-header-menu > .menu-item.current-menu-item > .menu-link,  .main-header-menu >.menu-item.current-menu-ancestor > .menu-link, .main-header-bar.ast-sticky-active .main-header-menu > .menu-item.current-menu-item > .menu-link, .main-header-bar.ast-sticky-active .main-header-menu >.menu-item.current-menu-ancestor > .menu-link {
+        color: var(--sticky-header-color-active);
+    }
+
+    .main-header-menu .menu-link:hover, .main-header-menu .menu-item:hover > .menu-link,  .main-header-menu .menu-item.focus > .menu-link, .main-header-bar.ast-sticky-active .main-header-menu .menu-item:hover > .menu-link, .main-header-bar.ast-sticky-active .main-header-menu .menu-item.focus > .menu-link {
+        color: var(--sticky-header-color-active);
+    }
+}
+
+[CLASS*="-sticky-header-active"] .ast-header-sticked [data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+	fill: var(--toggle-color) !important;
+}

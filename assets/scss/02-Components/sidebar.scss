@@ -1,0 +1,33 @@
+
+/*** 
+
+  Sidebar 
+
+**************/
+.widget-area.secondary {
+  margin: 0 !important;
+  background-color: var(--primary-white);
+
+  .ast-separate-container.ast-two-container #secondary .widget {
+    background-color: #fff;
+    padding: 0 2em;
+    margin-bottom: 0em;
+  }
+
+  .sidebar-main .widget_block h3 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
+  margin-left: .75rem;
+  }
+
+
+  /** Sidebar Woo **/
+  #block-27.widget, #block-29.widget {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+}

@@ -1,0 +1,38 @@
+/** 3rd Level Menu Header **/
+
+
+.ast-below-header-bar {
+    border-bottom: 0rem solid var(--primary-purple);
+    background-color: var(--bottom-header-background-color);
+}
+
+.ast-builder-grid-row.ast-grid-center-col-layout-only .ast-grid-section-center {
+    flex-grow: 1;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+}
+
+.header-widget-area[data-section="sidebar-widgets-header-widget-2"] {
+    display: block;
+   
+}
+
+.header-widget-area[data-section="sidebar-widgets-header-widget-2"] .wp-block-columns, .header-widget-area[data-section="sidebar-widgets-header-widget-2"].wp-block-column {
+     margin: 0 0 1rem 0!important; 
+}
+
+.header-widget-area[data-section="sidebar-widgets-header-widget-2"] h3 {
+    color: var(--primary-white);
+    font-weight: 600;
+}
+
+.header-widget-area[data-section="sidebar-widgets-header-widget-2"] h4 {
+    color: var(--primary-white);
+    font-weight: 600;
+    font-size: .9rem;
+}
+ .ast-header-break-point .ast-below-header-bar { 
+    background-color: var(--bottom-header-background-color);
+
+}
+ 

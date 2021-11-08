@@ -1,0 +1,52 @@
+/****
+
+   Tablet Settings 
+  Orignally set to 768px
+******************/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .wp-block-column:not(:only-child) {
+        flex-basis: 100%!important;
+        flex-grow: 0;
+    }
+
+    .wp-block-column:nth-child(2n) {
+        margin-left: 0em;
+    }
+    .wp-block-cover h1 {
+       text-align: center;  
+     }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .hide-column {
+        display: none;
+    }
+
+    .widget_block {
+        margin: 1.5rem !important;
+    }
+
+    .footer-h-right {
+        text-align: center;
+    }
+    .wp-block-columns.has-background {
+        padding: 1rem 1rem;
+    }
+    .wp-block-column:not(:only-child) {
+        flex-basis: 100%!important;
+        flex-grow: 0;
+    }
+    .wp-block-column:nth-child(2n) {
+        margin-left: 0em;
+    }
+
+    .wp-block-cover h1 {
+        text-align: center;      
+    }
+}
+
+
+

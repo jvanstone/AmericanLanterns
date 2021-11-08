@@ -1,0 +1,14 @@
+
+/****
+
+    Images 
+
+************/
+.post-thumb {
+    line-height: 0;
+}
+
+.wp-block-image.is-style-circle-mask img, .wp-block-image.is-style-rounded img {
+    border-radius: 9999px;
+    filter: drop-shadow(5px 5px 5px var(--primary-dark-green));
+}

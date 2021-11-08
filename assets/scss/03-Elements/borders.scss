@@ -1,0 +1,36 @@
+/****
+
+    Borders
+
+*******************/
+
+.full-border-radius {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: .25rem solid rgba(255, 255, 255, 0.425);
+
+}
+
+.top-border-radius {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.bottom-border-radius {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+
+}
+
+
+.border1 {
+    border: 1px solid var(--primary-black);
+}
+
+.border-full { border: .1rem solid var(--primary-purple);}
+.border-top { border-top: .1rem solid var(--primary-purple);}
+.no-border {border-width: 0;}

@@ -1,0 +1,74 @@
+/**** 
+
+    Buttons 
+    
+******************/
+.menu-toggle, button, .ast-button, .wp-block-button .wp-block-button__link, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-family: ivar(--primary-button-font-family);
+    font-weight:  var(--primary-button-font-weight);
+    line-height: 1;
+    text-align: center;
+
+    color: var(--primary-button-text-color);
+    background: var(--primary-button-background-color);
+    transition: all 1.2s linear;
+
+    a:hover {
+        background: var(--primary-button-background-hover);
+        color: var(--primary-button-text-hover);
+    }
+}
+
+button a:hover, .ast-button a:hover, .wp-block-button .wp-block-button__link:hover, .button a:hover, input#submit a:hover, input[type="button"] a:hover, input[type="submit"] a:hover, input[type="reset"] a:hover {
+    background: var(--primary-button-background-hover);
+    color: var(--primary-button-text-hover);
+}
+/** header button **/
+
+.ast-custom-button {
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    text-align: center;
+}
+
+.ast-header-button-1 {
+    border-right: 0px solid var(--primary-black);
+    padding: .2rem;
+}
+.ast-header-button-1 a .ast-custom-button {
+    background: var(--header-button-background-color);
+    color: var(--header-button-text-color);
+    text-transform: var(--header-button-text-transform);
+    font-weight: var(--header-button-font-weight);
+    font-size: var(--header-button-font-size)!important;
+    transition: all 1.2s linear;
+    
+}
+
+.ast-header-button-1 a:hover .ast-custom-button {
+   background: var(--header-button-background-hover);
+   color: var(--header-button-text-hover);
+   
+}

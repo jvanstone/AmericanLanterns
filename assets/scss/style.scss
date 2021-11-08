@@ -1,0 +1,84 @@
+@import '01-Settings/header.scss';
+
+/**
+ * 01) SETTINGS
+ * File-header..........The file header for the themes style.css file.
+ * Fonts................Any font files, if the project needs specific fonts.
+ * Global...............Project-specific, globally available variables.
+ *
+ *
+ * 02) Componenets
+ * Header Top
+ * Header Middle 
+ * Header Bottom
+ * Main Menu
+ * Footer.
+ * 
+ * 03) ELEMENTS
+ * Blockquote...........Default blockquote.
+ * Forms................Element-level form styling.
+ * Headings.............H1–H6
+ * Paragraphs...........P
+ * Links................Default links.
+ * Lists................Default lists.
+ * Media................Images, Figure, Figcaption, Embed, iFrame, Objects, Video.
+ *
+ * 
+ * 04) ADD-ONS
+
+
+ 06) Media Enquiries
+  Mobile
+  Tablet
+  Laptop
+
+ */
+ 
+
+/** 01) SETTINGS **/
+@import '01-Settings/fonts.scss';
+@import '01-Settings/globals.scss';
+@import '01-Settings/reset.scss';
+
+
+/** 02) Compenents **/
+@import '02-Components/header-setup.scss';
+
+
+@import '02-Components/main-content.scss';
+@import '02-Components/blog.scss';
+@import '02-Components/sidebar.scss';
+@import '02-Components/footer.scss';
+
+
+/** 03) ELEMENTS **/
+@import '03-Elements/blocks.scss';  
+@import '03-Elements/borders.scss';
+@import '03-Elements/buttons.scss'; 
+@import '03-Elements/cover.scss'; 
+@import '03-Elements/headings.scss';
+@import '03-Elements/icon.scss'; 
+@import '03-Elements/links.scss';
+@import '03-Elements/lists.scss';
+@import '03-Elements/margin.scss';
+@import '03-Elements/padding.scss';       
+@import '03-Elements/paragraph.scss';
+@import '03-Elements/images.scss';     
+
+/** 04) Add-Ons **/
+@import '04-Add-Ons/add-ons.scss';
+@import '04-Add-Ons/cf7.scss'; //Contact Form 7
+@import '04-Add-Ons/slick-slider.scss';
+@import '04-Add-Ons/ticker.scss';
+@import '04-Add-Ons/meta-slider.scss';
+@import '04-Add-Ons/nextgen.scss';
+@import '04-Add-Ons/effects.scss';
+//@import '04-Add-Ons/sidecart.scss';
+
+/** 06) Media Queries **/
+@import '06-Mobile-Response/phone.scss';
+@import '06-Mobile-Response/tablet.scss';
+@import '06-Mobile-Response/laptop.scss';
+
+
+@import '08-WooCommerce/woocommerce.scss';

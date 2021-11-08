@@ -1,0 +1,101 @@
+/****
+
+  Add-Ons
+
+
+**************/
+
+
+.center-content {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.center-img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dark-background {
+    background-color: var(--primary-green);
+
+    form>p input[type="submit"] {
+        background-color: var(--primary-dark-gray);
+    }
+}
+
+
+.wp-block-group {
+    padding: 0rem 0;
+}
+.center-align {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column nowrap;
+}
+
+
+
+
+.gradient-background {
+    padding: 2rem;
+    background: var(--primary-light-green);
+    color: var(--primary-white);
+}
+
+
+
+
+.section { 
+    border-top: .25rem solid var(--primary-white);
+    border-bottom: .25rem solid var(--primary-white);
+    padding: 2rem 3rem;
+}
+
+
+#inspire-footer {
+    padding: 4rem;
+    background-image:url(assets/img/index-bg-3.png); 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+ 
+    h2 { color: var(--primary-yellow); 
+        font-size: 2rem; 
+        font-family: var(--cursive-font);
+        font-weight: 600; 
+        margin: 2.6rem 0px 2rem 0px; 
+        padding:0px; }
+
+    p { color:var(--primary-white); 
+        font-size: 1.5rem; 
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+
+
+}
+
+.background-yellow { 
+    padding: 2rem;
+    background: var(--gradient-yellow); 
+    border-radius: 1rem;
+    color: var(--primary-black); 
+    
+    h2 { 
+        color: var(--primary-black);
+        text-decoration: underline;
+    }
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px 0 5px 0;
+}
+.border-gradient-yellow {
+  border-image-source: var(--gradient-yellow-to-left);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+}
