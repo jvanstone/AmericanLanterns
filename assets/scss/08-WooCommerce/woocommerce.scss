@@ -155,7 +155,7 @@
 }
  /** Checkout ********************************/
 
- .woocommerce-billing-fields__field-wrapper { 
+ .woocommerce-billing-fields__field-wrapper, .woocommerce-order-details { 
 
     p label { 
         color: var(--primary-green); 
@@ -299,3 +299,5 @@ form #order_review:not(.elementor-widget-woocommerce-checkout-page #order_review
 	color: aliceblue;
     font-size: 1rem;
 }
+
+.woocommerce-thankyou-order-received { color: var(--primary-green);}

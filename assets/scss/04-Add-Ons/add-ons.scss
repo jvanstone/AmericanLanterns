@@ -96,3 +96,13 @@
 .border-gradient-yellow {
   border-image-source: var(--gradient-yellow-to-left);
 }
+
+
+.single .entry-header .post-thumb img {
+	margin-top: 0;
+	margin-bottom: 0;
+
+    width: 100%;
+    height: 500px;
+
+}

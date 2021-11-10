@@ -11,7 +11,7 @@ h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-
     font-weight: var(--h1-font-weight);
 }
 
-h1, .entry-content h1 {
+h1, .entry-content h1, h1.entry-title {
     color: var(--h1-color);
     font-size: var(--h1-font-size);
     font-family: var(--h1-font-family);
@@ -45,12 +45,11 @@ h2.widget-title,  h2.contact-title {
     text-transform: capitalize;
     border: 0!important;
 }
-.entry-title, .page-title {
+ .page-title {
     color: var(--page-title-color);
     font-family: var(--cursive-font);
     font-size: 3rem;
 }
-
 
 h2.announce {
     color: var(--primary-black);
