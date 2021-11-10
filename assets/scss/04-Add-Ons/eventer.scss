@@ -1,0 +1,70 @@
+/*****************************
+
+   EVENTER
+   
+**********/
+
+
+/** Event Details */
+article.type-eventer {
+
+    h1.entry-title { 
+        color: var(--primary-yellow)!important;
+    }
+
+    .eventer-cat-header {
+        padding: 16px;
+        background: var(--primary-black);
+        border: 1px solid var(--primary-green);
+    }
+
+    .eventer-single-event-details ul.eventer-single-event-info {
+        border: 0px solid var(--primary-green);
+      
+        background: var(--primary-black);
+
+        li:first-child {
+            border-bottom: 1px solid var(--primary-green);
+        }
+        span { color: var(--primary-yellow); }
+    }
+
+    .eventer-ticket-details {
+        background-color: var(--primary-black);
+        box-shadow: 0 0 12px rgba( 0,0,0,.05 );
+        border: 1px solid var(--primary-green);
+        padding: 15px;
+        margin-bottom: 10px;
+
+        h3 {
+            
+            margin-bottom: 20px;
+            padding-bottom: 17px;
+            border-bottom: 2px solid var(--primary-green);
+        }
+
+        ul.eventer-tickets-info {
+
+            span { 
+                color: var(--primary-yellow);
+
+                .eventer-ticket-remaining {
+                    font-style: italic;
+                    font-size: .9rem;
+                    display: block;
+                    opacity: 1;
+                    text-transform: none;
+                    color: VAR(--primary-gray);
+                }
+            }
+        }
+
+
+    }
+
+           .eventer .eventer-btn-primary, .eventer .eventer-btn-primary:disabled, .eventer .eventer-btn-primary:disabled:hover, .eventer .eventer-btn-primary:hover, .eventer-q-field input[type="button"]:hover, .eventer-switcher-actions-view a:hover, .eventer .eventer-switcher-actions-view a.active, .fc button.fc-state-active, .eventer-custom-ui-datepicker.ui-datepicker .ui-widget-header, .eventer-custom-ui-datepicker.ui-datepicker .ui-datepicker-header, .eventer-custom-ui-datepicker.ui-datepicker td.ui-datepicker-current-day, .eventer-custom-ui-datepicker.ui-datepicker td .ui-state-hover, .eventer .eventer-switcher-actions-view a.today-btn, .eventer .eventer-switcher-actions-view .trigger-active, .eventer-status-badge, .eventer-dash-nav-right li.eventer-fe-usermenu img, .eventer-fe-usermenu .eventer-fe-dropdown-in, .eventer-fe-ele-icon, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_header, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.hover, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.active, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.wday_sat:not(.day_in_past):hover, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.wday_sun:not(.day_in_past):hover, .eventer-fe-add-field-value:hover, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.wday_sat.active, .eventer-fe-datepicker.eventer-datepicker > .eventer-datepicker_inner_container > .eventer-datepicker_calendar > .eventer-datepicker_table > tbody > tr > td.wday_sun.active, .eventer-fe-ticket-count, .eventer-accent-bg, .eventer-schedule-time {
+	background: var(--gradient-yellow)!important;
+    color: var(--primary-black);
+    border: none;
+}
+}
