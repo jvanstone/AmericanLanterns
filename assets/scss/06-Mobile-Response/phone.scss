@@ -9,8 +9,6 @@
     #content.site-content {                                     
         background-position: center right; 
     } 
-
-
    
     .hide-column {
         display: none;
@@ -27,8 +25,17 @@
     .entry-content h1 {
         font-size: calc(var(--h1-font-size) * .5)!important;
     }
+
+    .metaslider .caption-wrap { 
+        top: 100%;
+        height: auto; 
+        margin-bottom: 15rem;
+        font-size: calc(var(--h1-font-size) * .5)!important; 
+
+    }
+
     .entry-content {
-        padding: 0 .75rem;
+        padding: 0 0rem;
         p { padding: 0 .25rem; }
     }
     .front-header {
