@@ -66,9 +66,10 @@ assets/bower_components/*
 .idea/
 library/vendors/composer
 assets/img/.DS_Store
-.editorconfig
-.eslintrc.js
 gulpfile.babel.js
-package-lock.json
-package.json
 wpgulp.config.js
+package.json
+package-lock.json
+.editorconfig
+.gitignore
+.eslintrc.js
