@@ -155,6 +155,7 @@ p.add-to-top{margin-top:4rem !important}
 .border-gradient{border:10px solid;border-image-slice:1;border-width:5px 0 5px 0}
 .border-gradient-yellow{border-image-source:var(--gradient-yellow-to-left)}
 .single .entry-header .post-thumb img{margin-top:0;margin-bottom:0;width:100%;height:500px}
+.hide-seo{display:none}
 .wpcf7 label{color:inherit}
 .wpcf7 input[type=email],.wpcf7 input[type=number],.wpcf7 input[type=password],.wpcf7 input[type=reset],.wpcf7 input[type=search],.wpcf7 input[type=tel],.wpcf7 input[type=text],.wpcf7 input[type=url],.wpcf7 select,.wpcf7 textarea{color:var(--primary-black);padding:.75em;height:auto;border-width:1px;border-style:solid;border-color:var(--primary-green);border-radius:2px;background:#fff;-webkit-box-shadow:none;box-shadow:none;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .2s linear;transition:all .2s linear}
 .wpcf7 form>p input[type="submit"]{margin:0 auto;text-align:center}

@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/americanl/public_html/wp-content/themes/american-lanterns 
-    - /bin/cp  AmericanLantern $DEPLOYPATH
+    - /bin/cp  AmericanLantern $DEPLOYPATH  
