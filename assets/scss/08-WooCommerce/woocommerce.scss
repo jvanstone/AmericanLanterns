@@ -194,7 +194,7 @@
 .woocommerce-thankyou-order-received { color: var(--primary-green);}
 
 
-.woocommerce-page {
+.woocommerce-page , .woocommerce-order-details {
     
     form.woocommerce-checkout {
         background-color: #fff; 
@@ -350,13 +350,3 @@
     padding-left: 1.5em;
 }
 
-td.product-name .wc-item-meta dd, td.product-name dl.variation dd {
-    margin: 0;
-
-    color: var(--primary-black);
-
-    p {
-    font-size: .95em;
-    color: var(--primary-black);
-    }
-}
