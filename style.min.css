@@ -240,7 +240,7 @@ article.type-eventer .eventer-event-share>li:first-child{color:var(--primary-yel
 .eventer-countdown .eventer-countdown-timer .eventer-timer-col strong{font-weight:400;color:var(--primary-green);font-size:12px;display:block;margin-top:6px;letter-spacing:3px}
 .fc-unthemed .fc-divider,.fc-unthemed .fc-list-heading td,.fc-unthemed .fc-popover .fc-header{background:var(--gradient-yellow) !important}
 .fc-unthemed .fc-divider a,.fc-unthemed .fc-list-heading td a,.fc-unthemed .fc-popover .fc-header a{color:var(--primary-black) !important}
-.fc-unthemed .fc-content,.fc-unthemed .fc-divider,.fc-unthemed .fc-list-heading td,.fc-unthemed .fc-list-view,.fc-unthemed .fc-popover,.fc-unthemed .fc-row,.fc-unthemed tbody,.fc-unthemed td,.fc-unthemed th,.fc-unthemed thead{border-color:var(--primary-green) !important}
+.fc-unthemed .fc-content,.fc-unthemed .fc-divider,.fc-unthemed .fc-list-heading td,.fc-unthemed .fc-list-view,.fc-unthemed .fc-popover,.fc-unthemed .fc-row,.fc-unthemed tbody,.fc-unthemed td,.fc-unthemed th,.fc-unthemed thead,tr:hover{border-color:var(--primary-green) !important}
 .ast-woocommerce-container{padding:0;background-color:var(--primary-black);border-color:var(--primary-green)}
 .ast-woocommerce-container .woocommerce-breadcrumb{display:none}
 .ast-woocommerce-container .woocommerce-products-header{padding:3rem;background:url(assets/img/interior-header.jpg) no-repeat center;height:30rem}
