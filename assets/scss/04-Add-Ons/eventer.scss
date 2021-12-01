@@ -101,7 +101,7 @@ article.type-eventer {
             option { color: var(--primary-green);}
         }
 
-    
+       
 
     }
 
@@ -139,7 +139,7 @@ article.type-eventer {
 	width: 90%;
     border: 1px solid var(--primary-green);
     border-radius: 4px;
-	background: var(--primary-black);
+	background: #ddd;
 	padding: 30px;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 0 20px rgba(0,0,0,.2);
@@ -148,12 +148,57 @@ article.type-eventer {
 	box-shadow: 0 0 20px rgba(0,0,0,.2);
 	text-align: left;
 
+    /** TICKET SELECTION **/
+    .eventer-event-single {
+
+        h3 { color: #000000;}
+
+        .eventer-toggle-area {
+
+            .eventer-ticket-step1 {
+
+                color: #000000;
+
+            }
+        }
+    }
+
+    ul.woocommerce-mini-cart, .eventer-row, ul.cart_list, ul.product_list_widget  {
+        background-color: #fff;
+        padding: .3rem;
+        border-radius: .5rem;
+
+        li { 
+            a.remove.remove_from_cart_button {
+            border: 0 !important;
+            background: var(--primary-green) !important;
+            color: #fff !important;
+
+            dl { 
+
+                dt {
+                    font-weight: 700;
+                    padding: 0 0 .25em;
+                    margin: 0 4px 0 0;
+                    clear: left;
+                    line-height: 2;
+                    color: var(--primary-green)!important;
+                }
+                dd {
+                    p { color: #666!important;}
+                }
+            }
+            }  
+        }
+    }
+    .widget_shopping_cart_content { color: #000;}
+
    label:not(.eventer-checkbox):not(.eventer-radio) {
         font-size: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: 4px;
-        color: var(--primary-yellow);
+        color: var(--primary-black);
     }
 
    input[type="text"],input[type="email"],input[type="password"],input[type="tel"],input[type="url"],input[type="number"],input[type="date"],select,textarea, .eventer-ticket-details button.ui-datepicker-trigger {
@@ -193,6 +238,7 @@ article.type-eventer {
         width: 60px;
         border: 1px solid var(--primary-green)!important;
         border-radius: 3px;
+        background: var(--primary-green);
     
         input[type="button"] { 
             float: right;
@@ -244,14 +290,18 @@ article.type-eventer {
     }
 
     p { 
-        font-size: 1rem; color: var(--primary-yellow); 
+        font-size: 1rem; 
+        color: var(--primary-dark-gray); 
+        font-weight: 700;
         
-        strong { color: var(--primary-white); }
+        strong { color: var(--primary-black); }
     }
 
     .eventer-ticket-confirmation-footer { 
-        p { color: var(--primary-white);}
+        p { color: var(--primary-white); }
     }
+
+    a { color: #000;}
 }
 
 .eventer .eventer-btn-default, .eventer-print-ticket  {
