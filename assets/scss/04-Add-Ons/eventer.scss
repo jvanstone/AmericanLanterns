@@ -453,3 +453,17 @@ article.type-eventer {
        
     }
 }
+
+/** calendar List **/
+
+.fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-popover .fc-header {
+    background: var(--gradient-yellow);
+    
+    a {
+        color: var(--primary-black);
+    }
+}
+
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: var(--primary-green);
+}
