@@ -186,3 +186,6 @@ add_filter( 'woocommerce_coupon_error', 'rename_coupon_label', 10, 3 );
 add_filter( 'woocommerce_coupon_message', 'rename_coupon_label', 10, 3 );
 add_filter( 'woocommerce_cart_totals_coupon_label', 'rename_coupon_label', 10, 1 );
 add_filter( 'woocommerce_checkout_coupon_message', 'woocommerce_rename_coupon_message_on_checkout' );
+
+
+remove_action( 'woocommerce_order_details_after_order_table', 'woocommerce_order_again_button' );
