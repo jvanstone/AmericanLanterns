@@ -103,3 +103,83 @@ function bbloomer_matching_email_addresses() {
 		wc_add_notice( 'Your email addresses do not match', 'error' );
 	}
 }
+
+/**
+ * Rename Coupon for Discount Code
+ *
+ * @param string $translated_text // Translate Text.
+ * @param string $text // The text to be translated.
+ * @param string $text_domain // The Text domain.
+ */
+function woocommerce_rename_coupon_field_on_cart( $translated_text, $text, $text_domain ) {
+
+	switch ( $text ) {
+		case 'Coupon:':
+			$translated_text = 'Discount Code:';
+			break;
+		case 'Coupons':
+			$translated_text = 'Discount Codes';
+			break;
+		case 'Coupon has been removed.':
+			$translated_text = 'Discount code has been removed.';
+			break;
+		case 'Apply coupon':
+			$translated_text = 'Apply Code';
+			break;
+		case 'Coupon code':
+			$translated_text = 'Discount Code';
+			break;
+		case 'Coupons':
+			$translated_text = 'Discount Codes';
+			break;
+		case 'Add coupon':
+			$translated_text = 'Add Discount Code';
+			break;
+		case 'Coupon type':
+			$translated_text = 'Discount type';
+			break;
+		case 'Coupon amount':
+			$translated_text = 'Discount amount';
+			break;
+		case 'If you have a coupon code, please apply it below.':
+			$translated_text = 'If you have a discount code, please apply it below.';
+			break;
+		case 'Scan this QR code at the event to check in.':
+			$translated_text = 'Scan this QR code at the event to check in. Please note: Each attendee will have to have their own ticket with a QR code.';
+			break;
+		case 'Untitled':
+			$translated_text = 'Finger Lakes Festival of Lights';
+
+	}
+
+	return $translated_text;
+}
+
+
+/**
+ * Rename the "Have a Coupon?" message on the checkout page
+ */
+function woocommerce_rename_coupon_message_on_checkout() {
+	return 'Have a Discount Code?' . ' <a href="#" class="showcoupon">' . __( 'Click here to enter your code', 'woocommerce' ) . '</a>';
+}
+
+
+/**
+ * Rename the "Have a Coupon?" message on the checkout page
+ *
+ * @param string $err // The string to replace.
+ * @param string $err_code // Confirm no error.
+ * @param string $something // Checking Somethimg.
+ */
+function rename_coupon_label( $err, $err_code = null, $something = null ) {
+
+	$err = str_ireplace( 'Coupon', 'Discount Code', $err );
+
+	return $err;
+}
+add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
+add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
+add_filter( 'woocommerce_coupon_error', 'rename_coupon_label', 10, 3 );
+add_filter( 'woocommerce_coupon_message', 'rename_coupon_label', 10, 3 );
+add_filter( 'woocommerce_cart_totals_coupon_label', 'rename_coupon_label', 10, 1 );
+add_filter( 'woocommerce_checkout_coupon_message', 'woocommerce_rename_coupon_message_on_checkout' );
