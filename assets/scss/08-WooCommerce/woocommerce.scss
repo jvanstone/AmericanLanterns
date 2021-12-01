@@ -332,3 +332,31 @@
 	background-color: var(--primary-green);
 	color: #fff;
 }
+
+
+.woocommerce-page.woocommerce-checkout .woocommerce-order h2.woocommerce-column__title, .woocommerce-page.woocommerce-checkout .woocommerce-order h2.woocommerce-order-details__title, .woocommerce.woocommerce-checkout .woocommerce-order h2.woocommerce-column__title, .woocommerce.woocommerce-checkout .woocommerce-order h2.woocommerce-order-details__title {
+    background: var(--primary-black);
+    padding: 1em;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: var(--primary-green);
+}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email, .woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {
+    margin-bottom: 0;
+    font-size: 1rem;
+    padding-left: 1.5em;
+}
+
+td.product-name .wc-item-meta dd, td.product-name dl.variation dd {
+    margin: 0;
+
+    color: var(--primary-black);
+
+    p {
+    font-size: .95em;
+    color: var(--primary-black);
+    }
+}
