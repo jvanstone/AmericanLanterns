@@ -264,7 +264,7 @@ article.type-eventer .eventer-event-share>li:first-child{color:var(--primary-yel
 .woocommerce-error a.showcoupon,.woocommerce-info a.showcoupon,.woocommerce-message a.showcoupon{color:var(--primary-yellow)}
 #customer_details h3:not(.elementor-widget-woocommerce-checkout-page h3){font-size:1.2rem;padding:20px 0 14px;margin:0 0 20px;border-bottom:1px solid var(--primary-green)}
 .woocommerce form .form-row .required{color:var(--primary-yellow);font-weight:700;border:0}
-.woocommerce-terms-and-conditions-wrapper p{font-size:1rem;color:var(--primary-yellow)}
+.woocommerce-terms-and-conditions-wrapper p{font-size:1rem;color:var(--primary-black)}
 .woocommerce-thankyou-order-received{color:var(--primary-green)}
 .woocommerce-page form.woocommerce-checkout{background-color:#fff;border:solid 2rem var(--primary-green)}
 .woocommerce-page form.woocommerce-checkout #customer_details.col2-set .col-1{margin:1rem;background-color:#fff}

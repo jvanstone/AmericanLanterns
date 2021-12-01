@@ -135,6 +135,9 @@ function woocommerce_rename_coupon_field_on_cart( $translated_text, $text, $text
 		case 'Add coupon':
 			$translated_text = 'Add Discount Code';
 			break;
+		case 'Add new coupon':
+			$translated_text = 'Add new discount code';
+			break;
 		case 'Coupon type':
 			$translated_text = 'Discount type';
 			break;
