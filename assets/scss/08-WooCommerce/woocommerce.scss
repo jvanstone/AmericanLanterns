@@ -194,7 +194,7 @@
 .woocommerce-thankyou-order-received { color: var(--primary-green);}
 
 
-.woocommerce-page , .woocommerce-order-details {
+.woocommerce-page {
     
     form.woocommerce-checkout {
         background-color: #fff; 
@@ -350,3 +350,26 @@
     padding-left: 1.5em;
 }
 
+
+.woocommerce-order-details {
+    table.shop_table {
+        border: solid 1px var(--primary-green);
+        th, tr, td, td.product-name .wc-item-meta dd, td.product-name dl.variation dd {
+        border: solid 1px var(--primary-green)!important;
+        margin: 0;
+
+        color: var(--primary-white);
+
+            p {
+            font-size: .95em;
+            color: var(--primary-white);
+            }
+        }
+    }
+}
+
+.woocommerce .woocommerce-Addresses address, .woocommerce .woocommerce-MyAccount-content address, .woocommerce .woocommerce-customer-details address, .woocommerce-account .woocommerce-Addresses address, .woocommerce-account .woocommerce-MyAccount-content address, .woocommerce-account .woocommerce-customer-details address {
+	border: 1px solid var(--primary-green);
+	padding: 1em;
+	border-radius: 0;
+}
