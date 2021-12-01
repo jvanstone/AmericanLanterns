@@ -71,5 +71,8 @@
        padding: 1rem;
        border-top: 1px solid var(--primary-white);
    }
-  
+   .woocommerce-page form.woocommerce-checkout #customer_details.col2-set .col-1 {
+    margin: 0rem;
+    background-color: #fff;
+}
  }
