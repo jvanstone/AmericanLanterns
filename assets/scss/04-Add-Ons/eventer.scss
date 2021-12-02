@@ -468,6 +468,11 @@ article.type-eventer {
     border-color: var(--primary-green)!important;
 }
 
+.fc-view-container {
+    background: white;
+    border: solid  4rem var(--primary-green);
+    color: black;
+}
 .fc td, .fc th {
     border-style: solid;
     border-width: 1px;
