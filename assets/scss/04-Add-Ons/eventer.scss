@@ -44,6 +44,7 @@ article.type-eventer {
             margin-bottom: 20px;
             padding-bottom: 17px;
             border-bottom: 2px solid var(--primary-green);
+            color: var(--primary-black);
         }
 
         ul.eventer-tickets-info {
@@ -57,8 +58,16 @@ article.type-eventer {
                     display: block;
                     opacity: 1;
                     text-transform: none;
-                    color: VAR(--primary-black);
+                    color: var(--primary-black);
                 }
+            }
+
+            .eventer-ticket-type-price {
+                float: right;
+                background: var(--primary-green);
+                border-radius: 999px;
+                padding: 5px 10px;
+                color: #fff;
             }
         }
 
