@@ -86,6 +86,9 @@ footer ul.astra-footer-menu li a{color:var(--footer-link-color)}
 footer ul.astra-footer-menu li.current_page_item a.menu-link{color:var(--footer-menu-hover-link)}
 footer .ast-footer-copyright p,footer .ast-footer-copyright a{color:var(--primary-gray);font-size:.95rem}
 footer .fas,footer .far{font-size:1rem;color:var(--primary-white);margin:.5rem}
+#inspire-footer{padding:4rem;background-image:url(assets/img/index-bg-3.png);background-repeat:no-repeat;background-position:center center;background-size:cover}
+#inspire-footer h2{color:var(--primary-yellow);font-size:2rem;font-family:var(--cursive-font);font-weight:600;margin:2.6rem 0 2rem 0;padding:0}
+#inspire-footer p{color:var(--primary-white);font-size:1.5rem;font-family:'Roboto',Arial,Helvetica,sans-serif}
 .wp-block-columns,.wp-block-column{margin:0;padding:0}
 .wp-block-cover{margin:0;margin-bottom:4rem;padding:4rem 0}
 .hide-citation{padding-bottom:0}
@@ -149,9 +152,6 @@ p.add-to-top{margin-top:4rem !important}
 .center-align{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column nowrap;flex-flow:column nowrap}
 .gradient-background{padding:2rem;background:var(--primary-light-green);color:var(--primary-white)}
 .section{border-top:.25rem solid var(--primary-white);border-bottom:.25rem solid var(--primary-white);padding:2rem 3rem}
-#inspire-footer{padding:4rem;background-image:url(assets/img/index-bg-3.png);background-repeat:no-repeat;background-position:center center;background-size:cover}
-#inspire-footer h2{color:var(--primary-yellow);font-size:2rem;font-family:var(--cursive-font);font-weight:600;margin:2.6rem 0 2rem 0;padding:0}
-#inspire-footer p{color:var(--primary-white);font-size:1.5rem;font-family:'Roboto',Arial,Helvetica,sans-serif}
 .background-yellow{padding:2rem;background:var(--gradient-yellow);border-radius:1rem;color:var(--primary-black)}
 .background-yellow h2{color:var(--primary-black);text-decoration:underline}
 .border-gradient{border:10px solid;border-image-slice:1;border-width:5px 0 5px 0}
