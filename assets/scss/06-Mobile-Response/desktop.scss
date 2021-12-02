@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px)  {
+@media (min-width: 1201px)  {
     .wp-block-columns, .wp-block-column {
         margin: 0rem 0;
         padding: 0rem 0;
@@ -6,11 +6,3 @@
     .mobile-tablet-only { display: none; }
 }
 
-
-@media screen and (min-width: 1400px)  {
-    .wp-block-columns, .wp-block-column {
-        margin: 0rem 0;
-        padding: 0rem 0;
-    }
-    .mobile-tablet-only { display: none; }
-}

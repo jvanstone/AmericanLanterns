@@ -332,6 +332,7 @@ h1{font-size:calc(var(--h1-font-size) * .65) !important}
 .footer-widget-area{margin:1rem 0;padding:1rem;border-top:1px solid var(--primary-white)}
 .woocommerce-page form.woocommerce-checkout #customer_details.col2-set .col-1{margin:0 !important;background-color:#fff}
 .fc-view-container{background:white;border:solid 1rem var(--primary-green);color:black}
+.mobile-tablet-only{padding:0}
 }@keyframes fadeIn{0%{opacity:0}
 100%{opacity:1}
 }@-webkit-keyframes fadeIn{0%{opacity:0}
