@@ -244,7 +244,8 @@ article.type-eventer .eventer-event-share>li:first-child{color:var(--primary-yel
 .fc-unthemed .fc-content,.fc-unthemed .fc-divider,.fc-unthemed .fc-list-heading td,.fc-unthemed .fc-list-view,.fc-unthemed .fc-popover,.fc-unthemed .fc-row,.fc-unthemed tbody,.fc-unthemed td,.fc-unthemed th,.fc-unthemed thead,tr:hover{border-color:var(--primary-green) !important}
 .fc-view-container{background:white;border:solid 4rem var(--primary-green);color:black}
 .fc td,.fc th{border-style:solid;border-width:1px;padding:0;vertical-align:top;text-align:center}
-.fc-event,.fc-event-dot{background-color:var(--primary-white) !important;border:1px solid var(--primary-green) !important;color:var(--primary-black) !important}
+.fc-event,.fc-event-dot{background-color:var(--primary-white) !important;border:1px solid var(--primary-green) !important;color:var(--primary-dark-gray) !important}
+.fc-event .fc-title,.fc-event-dot .fc-title{display:none !important}
 .ast-woocommerce-container{padding:0;background-color:var(--primary-black);border-color:var(--primary-green)}
 .ast-woocommerce-container .woocommerce-breadcrumb{display:none}
 .ast-woocommerce-container .woocommerce-products-header{padding:3rem;background:url(assets/img/interior-header.jpg) no-repeat center;height:30rem}

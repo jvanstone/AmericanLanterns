@@ -484,5 +484,7 @@ article.type-eventer {
 .fc-event, .fc-event-dot {
     background-color:var(--primary-white)!important;
     border: 1px solid var(--primary-green)!important;
-    color: var(--primary-black)!important;
+    color: var(--primary-dark-gray)!important;
+
+    .fc-title { display: none !important; }
 }
