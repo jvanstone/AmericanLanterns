@@ -29,11 +29,11 @@ article.type-eventer {
         li:first-child {
             border-bottom: 1px solid var(--primary-green);
         }
-        span { color: var(--primary-yellow); }
+        span { color: var(--primary-black); }
     }
 
     .eventer-ticket-details {
-        background-color: var(--primary-black);
+ 
         box-shadow: 0 0 12px rgba( 0,0,0,.05 );
         border: 1px solid var(--primary-green);
         padding: 15px;
@@ -57,7 +57,7 @@ article.type-eventer {
                     display: block;
                     opacity: 1;
                     text-transform: none;
-                    color: VAR(--primary-gray);
+                    color: VAR(--primary-black);
                 }
             }
         }
