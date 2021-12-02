@@ -482,5 +482,7 @@ article.type-eventer {
 }
 
 .fc-event, .fc-event-dot {
-    background-color:var(--primary-green)!important;
+    background-color:var(--primary-white)!important;
+    border: 1px solid var(--primary-green);
+    color: var(--primary-black);
 }
