@@ -313,7 +313,7 @@ article.type-eventer .eventer-event-share>li:first-child{color:var(--primary-yel
 .site-header .site-description{padding:.5rem}
 .footer-h-right{text-align:right}
 .wp-block-columns,.wp-block-column{margin:0;padding:0}
-.mobile-view-only{display:none}
+.mobile-view-only{display:none !important}
 }@media screen and (max-width:1000px){h4.bx_title{margin-top:1.75rem;width:80%;font-size:1.2rem !important}
 }@media screen and (max-width:767px){#content.site-content{background-position:center right}
 .hide-column{display:none}
