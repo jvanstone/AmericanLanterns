@@ -483,6 +483,6 @@ article.type-eventer {
 
 .fc-event, .fc-event-dot {
     background-color:var(--primary-white)!important;
-    border: 1px solid var(--primary-green);
-    color: var(--primary-black);
+    border: 1px solid var(--primary-green)!important;
+    color: var(--primary-black)!important;
 }
