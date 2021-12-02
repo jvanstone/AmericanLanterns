@@ -8,21 +8,23 @@
 
 /** Event Details */
 article.type-eventer {
-
+    border: solid 2rem var(--primary-green);
+    background: var(--primary-white);
     h1.entry-title { 
         color: var(--primary-yellow)!important;
+        display: none;
     }
 
     .eventer-cat-header {
         padding: 16px;
-        background: var(--primary-black);
+      
         border: 1px solid var(--primary-green);
     }
 
     .eventer-single-event-details ul.eventer-single-event-info {
         border: 0px solid var(--primary-green);
       
-        background: var(--primary-black);
+       
 
         li:first-child {
             border-bottom: 1px solid var(--primary-green);
@@ -47,7 +49,7 @@ article.type-eventer {
         ul.eventer-tickets-info {
 
             span { 
-                color: var(--primary-yellow);
+                color: var(--primary-black);
 
                 .eventer-ticket-remaining {
                     font-style: italic;
@@ -71,7 +73,7 @@ article.type-eventer {
             padding-top: 0;
             padding-bottom: 0;
             line-height: 20px;
-            background: #000;
+       
     
             font-style: normal;
             font-weight: 300;
@@ -79,7 +81,7 @@ article.type-eventer {
             display: block;
             width: 100%;
             border: 1px solid var(--primary-green);
-            color: var(--primary-yellow);
+            color: var(--primary-black);
             line-height: 1;
             padding: .625em;
             -webkit-transition: border .25s;
@@ -95,7 +97,7 @@ article.type-eventer {
             padding-top: 0;
             padding-bottom: 0;
             line-height: 20px;
-            background: #000;
+        
             -webkit-appearance: none !important;
 
             option { color: var(--primary-green);}
