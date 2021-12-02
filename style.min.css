@@ -183,6 +183,7 @@ article.type-eventer{border:solid 2rem var(--primary-green);background:var(--pri
 article.type-eventer h1.entry-title{color:var(--primary-yellow) !important;display:none}
 article.type-eventer .eventer-cat-header{padding:16px;border:1px solid var(--primary-green)}
 article.type-eventer .eventer-single-event-details ul.eventer-single-event-info{border:0 solid var(--primary-green)}
+article.type-eventer .eventer-single-event-details ul.eventer-single-event-info h3{color:var(--primary-black)}
 article.type-eventer .eventer-single-event-details ul.eventer-single-event-info li:first-child{border-bottom:1px solid var(--primary-green)}
 article.type-eventer .eventer-single-event-details ul.eventer-single-event-info span{color:var(--primary-black);font-size:.95rem}
 article.type-eventer .eventer-ticket-details{-webkit-box-shadow:0 0 12px rgba(0,0,0,0.05);box-shadow:0 0 12px rgba(0,0,0,0.05);border:1px solid var(--primary-green);padding:15px;margin-bottom:10px}
