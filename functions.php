@@ -44,6 +44,11 @@ function add_editor_styles_sub_dir() {
 add_action( 'after_setup_theme', 'add_editor_styles_sub_dir' );
 
 
+/**
+ * Add footer info to the end of each page.
+ *
+ * @return void
+ */
 function add_footer_info() {
 
 	?>
@@ -57,51 +62,42 @@ function add_footer_info() {
 		</article>
 
 </div>
-<?php
+	<?php
 }
 add_action( 'astra_content_bottom', 'add_footer_info' );
 
 
 /**
-* @snippet       Add "Confirm Email Address" Field @ WooCommerce Checkout
-* @how-to        Get CustomizeWoo.com FREE
-* @author        Rodolfo Melogli
-* @testedwith    WooCommerce 3.8
-* @donate $9     https://businessbloomer.com/bloomer-armada/
-*/
-  
-// ---------------------------------
-// 1) Make original email field half width
-// 2) Add new confirm email field
-  
-add_filter( 'woocommerce_checkout_fields' , 'bbloomer_add_email_verification_field_checkout' );
-   
+ * Add "Confirm Email Address" Field @ WooCommerce Checkout
+ *
+ */
 function bbloomer_add_email_verification_field_checkout( $fields ) {
-  
-$fields['billing']['billing_email']['class'] = array( 'form-row-first' );
-  
-$fields['billing']['billing_em_ver'] = array(
-	'label' => 'Confirm Email',
-	'required' => true,
-	'class' => array( 'form-row-last' ),
-	'clear' => true,
-	'priority' => 999,
-);
-  
-return $fields;
+
+	$fields['billing']['billing_email']['class'] = array( 'form-row-first' );
+
+	$fields['billing']['billing_em_ver'] = array(
+		'label'    => 'Confirm Email',
+		'required' => true,
+		'class'    => array( 'form-row-last' ),
+		'clear'    => true,
+		'priority' => 999,
+	);
+
+	return $fields;
 }
-  
-// ---------------------------------
-// 3) Generate error message if field values are different
-  
-add_action('woocommerce_checkout_process', 'bbloomer_matching_email_addresses');
-  
-function bbloomer_matching_email_addresses() { 
+add_filter( 'woocommerce_checkout_fields', 'bbloomer_add_email_verification_field_checkout' );
+
+	/**
+	 * 3) Generate error message if field values are different.
+	 *
+	 */
+function bbloomer_matching_email_addresses() {
 	$email1 = $_POST['billing_email'];
 	$email2 = $_POST['billing_em_ver'];
 	if ( $email2 !== $email1 ) {
 		wc_add_notice( 'Your email addresses do not match', 'error' );
 	}
+	add_action( 'woocommerce_checkout_process', 'bbloomer_matching_email_addresses' );
 }
 
 /**
