@@ -146,8 +146,8 @@ function woocommerce_rename_coupon_field_on_cart( $translated_text, $text, $text
 		case 'Scan this QR code at the event to check in.':
 			$translated_text = 'Scan this QR code at the event to check in. Please note: Each attendee will have to have their own ticket with a QR code.';
 			break;
-		case 'Previous Eventer':
-			$translated_text = 'Previous Event';
+		case 'Eventer':
+			$translated_text = 'Event';
 			break;
 		case 'Next Eventer':
 			$translated_text = 'Next Event';
