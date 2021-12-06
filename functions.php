@@ -53,12 +53,9 @@ function add_footer_info() {
 
 	?>
 </div>
-<div class="ast-container" id="inspire-footer">
+<div class="ast-container alignfull" id="inspire-footer">
 		<article>
-			<div class="before-footer">
-				<h2>Our lantern festivals light up the night and inspire fantasy, imagination and celebration!</h2>
-				<p>People of all ages can wander through a dazzling array of larger-than-life illuminated silk lanterns and light festival displays while taking in the fresh air and unparalleled majestic scenery of the Finger Lakes in New York. Groups of all sizes are welcome</p>
-			</div>
+			
 		</article>
 
 </div>
