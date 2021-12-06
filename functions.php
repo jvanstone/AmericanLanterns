@@ -149,13 +149,8 @@ function woocommerce_rename_coupon_field_on_cart( $translated_text, $text, $text
 		case 'Eventer':
 			$translated_text = 'Event';
 			break;
-		case 'Next Eventer':
-			$translated_text = 'Next Event';
-			break;
 		case 'Untitled':
 			$translated_text = 'Finger Lakes Festival of Lights';
-			
-
 	}
 
 	return $translated_text;

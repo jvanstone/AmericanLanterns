@@ -99,6 +99,7 @@ footer .fas,footer .far{font-size:1rem;color:var(--primary-white);margin:.5rem}
 .border-full{border:.1rem solid var(--primary-purple)}
 .border-top{border-top:.1rem solid var(--primary-purple)}
 .no-border{border-width:0}
+.green-border{border:solid 2rem var(--primary-green)}
 .menu-toggle,button,.ast-button,.wp-block-button .wp-block-button__link,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{border-style:solid;border-top-width:0;border-right-width:0;border-left-width:0;border-bottom-width:0;border-radius:4px;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;font-family:ivar(--primary-button-font-family);font-weight:var(--primary-button-font-weight);line-height:1;text-align:center;color:var(--primary-button-text-color);background:var(--primary-button-background-color);-webkit-transition:all 1.2s linear;transition:all 1.2s linear}
 .menu-toggle a:hover,button a:hover,.ast-button a:hover,.wp-block-button .wp-block-button__link a:hover,.button a:hover,input#submit a:hover,input[type="button"] a:hover,input[type="submit"] a:hover,input[type="reset"] a:hover{background:var(--primary-button-background-hover);color:var(--primary-button-text-hover)}
 button a:hover,.ast-button a:hover,.wp-block-button .wp-block-button__link:hover,.button a:hover,input#submit a:hover,input[type="button"] a:hover,input[type="submit"] a:hover,input[type="reset"] a:hover{background:var(--primary-button-background-hover);color:var(--primary-button-text-hover)}
