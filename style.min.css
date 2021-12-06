@@ -41,7 +41,7 @@ header#masthead ul.main-header-menu ul.sub-menu li{width:100%}
 header#masthead ul.main-header-menu ul.sub-menu li a{padding:1rem .25rem;font-size:1.2rem;line-height:2;border-top:solid 1px var(--primary-black);border-bottom:solid 1px var(--primary-black)}
 header#masthead ul.main-header-menu ul.sub-menu li a:hover{border-top:solid 1px var(--primary-yellow);border-bottom:solid 1px var(--primary-yellow)}
 span.site-title a{color:var(--primary-yellow) !important}
-.ast-mobile-popup-content .ast-primary-header-bar{border-bottom-width:0;border-bottom-color:var(--primary-orange);border-bottom-style:solid;background-color:var(--main-header-background-color)}
+.ast-mobile-popup-content .ast-primary-header-bar{border-bottom-width:0;border-bottom-color:var(--primary-orange);border-bottom-style:solid;background-color:rgba(0,0,0,0.63)}
 .ast-mobile-popup-content [data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg{width:3rem;height:3rem;fill:var(--toggle-color)}
 .ast-mobile-popup-content .main-navigation{background-color:rgba(0,0,0,0.63);border-bottom-width:0;border-bottom-color:var(--primary-orange);border-bottom-style:solid}
 .ast-mobile-popup-content .main-navigation ul{padding:0 20px;display:inline-block;width:100%;border:0;border-bottom-width:1px;border-style:solid;border-color:#eaeaea;font-size:1.75em}
