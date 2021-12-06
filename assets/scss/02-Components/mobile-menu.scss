@@ -50,12 +50,17 @@ span.site-title a {
       
     
             a.menu-link {
-                margin: 0 0 0 1rem;
+                border-bottom: solid 1px var(--primary-green);
+                margin: 0;
                 padding: 1rem;
                 color: var(--main-menu-color);
                 font-size: 1.25rem;
                 font-weight: var(--main-menu-weight);
                 text-transform:  var(--main-menu-text-transform);
+            }
+
+            a.menu-link:hover {
+                border-bottom: solid 1px var(--primary-yellow);
             }
         }
 
