@@ -54,6 +54,13 @@ ul.main-header-menu {
             a {
             font-size: 1.2rem;
             line-height: 2;
+            border-top: solid 1px var(--primary-black);
+            border-bottom: solid 1px var(--primary-black);
+            }
+
+            a:hover {
+                border-top: solid 1px var(--primary-yellow);
+                border-bottom: solid 1px var(--primary-yellow);
             }
         }
         

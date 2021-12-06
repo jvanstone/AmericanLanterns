@@ -51,7 +51,8 @@ header#masthead ul.main-header-menu li a{padding:0 .25rem;color:var(--main-menu-
 header#masthead ul.main-header-menu li a:hover,header#masthead ul.main-header-menu li.current-menu-item>a.menu-link,header#masthead ul.main-header-menu li.current-page-item>a.menu-link,header#masthead ul.main-header-menu li a .current-menu-item{background:var(--main-menu-hover-background);border-left:solid 0 var(--primary-dark-blue);border-right:solid 0 var(--primary-dark-blue);border-top:solid 1px var(--primary-yellow);border-bottom:solid 1px var(--primary-yellow);color:var(--main-menu-hover);-webkit-text-decoration:dotted;text-decoration:dotted}
 header#masthead ul.main-header-menu ul.sub-menu{margin:0;padding:0;padding-left:1rem;-webkit-box-shadow:0 4px 10px -2px rgba(0,0,0,0.1);box-shadow:0 4px 10px -2px rgba(0,0,0,0.1);background:var(--sub-menu-background);text-align:left;border-top:0 solid #fff}
 header#masthead ul.main-header-menu ul.sub-menu li{padding:0 .5rem;width:100%}
-header#masthead ul.main-header-menu ul.sub-menu li a{font-size:1.2rem;line-height:2}
+header#masthead ul.main-header-menu ul.sub-menu li a{font-size:1.2rem;line-height:2;border-top:solid 1px var(--primary-black);border-bottom:solid 1px var(--primary-black)}
+header#masthead ul.main-header-menu ul.sub-menu li a:hover{border-top:solid 1px var(--primary-yellow);border-bottom:solid 1px var(--primary-yellow)}
 .ast-mobile-popup-drawer.active .ast-mobile-popup-inner{background:var(--full-header-background)}
 #content.site-content{background-color:var(--body-background-color);background-repeat:no-repeat;background-size:cover;background-position:center}
 .ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single:not(.ast-related-post),.ast-article-single{margin-top:0;border-radius:var(--body-border-radius);background-color:var(--body-article-color)}
