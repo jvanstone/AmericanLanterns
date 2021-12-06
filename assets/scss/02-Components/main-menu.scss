@@ -48,10 +48,11 @@ ul.main-header-menu {
         border-top: 0px solid #fff;
 
         li {
-            padding: 0 .5rem;
+            padding: 0 1rem;
             width: 100%;
 
             a {
+            padding: 0 .25rem;
             font-size: 1.2rem;
             line-height: 2;
             border-top: solid 1px var(--primary-black);
