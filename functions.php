@@ -54,7 +54,7 @@ function add_footer_info() {
 	?>
 </div>
 <div class="ast-container alignfull" id="inspire-footer">
-		<article>
+		<article class="alignfull" style="min-height: 400px;">
 			
 		</article>
 
