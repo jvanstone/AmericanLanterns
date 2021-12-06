@@ -116,13 +116,13 @@ header#masthead {
     @import '02-Components/header-middle.scss';
     @import '02-Components/header-bottom.scss';
     @import '02-Components/sticky-header.scss';
-    @import '02-Components/mobile-menu.scss';
+    
     //@import '02-Components/transparent-header.scss';
 
     @import '02-Components/main-menu.scss';
 
 }
-
+@import '02-Components/mobile-menu.scss';
 .ast-mobile-popup-drawer.active .ast-mobile-popup-inner {
     background: var(--full-header-background);
 }

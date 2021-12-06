@@ -14,13 +14,7 @@ span.site-title a {
     
     }
     
-    .main-header-menu {
-        background-color: var(--main-header-background-color);
-        border-bottom-width: 0rem;
-        border-bottom-color: var(--primary-orange);
-        border-bottom-style: solid;
-    
-    }
+   
 
     [data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
         width: 3rem;
@@ -28,7 +22,14 @@ span.site-title a {
         fill: var(--toggle-color);
     } 
 
-     ul .menu-item .menu-link {
+    .main-navigation {
+        background-color: var(--main-header-background-color);
+        border-bottom-width: 0rem;
+        border-bottom-color: var(--primary-orange);
+        border-bottom-style: solid;
+    
+    
+     ul {
         padding: 0 20px;
         display: inline-block;
         width: 100%;
@@ -38,9 +39,8 @@ span.site-title a {
         border-color: #eaeaea;
         font-size: 1.75em;
 
-        li {
-            margin: 0 0 0 1rem;
-            padding: 0 1rem;
+        li.menu-item {
+            
             background-color: var(--main-menu-background-color);
             border: var(--main-menu-border-size) var(--main-menu-border-style) var(--main-menu-border-color);
             border-radius: var(--main-menu-border-radius); 
@@ -49,9 +49,11 @@ span.site-title a {
             font-family: var(--main-menu-font);
       
     
-            a {
+            a.menu-link {
+                margin: 0 0 0 1rem;
+                padding: 1rem;
                 color: var(--main-menu-color);
-                font-size: var(--main-menu-font-size);
+                font-size: 1.25rem;
                 font-weight: var(--main-menu-weight);
                 text-transform:  var(--main-menu-text-transform);
             }
@@ -64,6 +66,7 @@ span.site-title a {
             color: var(--main-menu-hover);
         }
     }
+}
     .ahfb-svg-iconset svg {
         width: 3rem;
         height: 3rem;
