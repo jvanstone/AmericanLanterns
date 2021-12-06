@@ -91,7 +91,7 @@ footer .fas,footer .far{font-size:1rem;color:var(--primary-white);margin:.5rem}
 #inspire-footer h2{color:var(--primary-yellow);font-size:2rem;font-family:var(--cursive-font);font-weight:600;margin:2.6rem 0 2rem 0;padding:0}
 #inspire-footer p{color:var(--primary-white);font-size:1.5rem;font-family:'Roboto',Arial,Helvetica,sans-serif}
 .wp-block-columns,.wp-block-column{margin:0;padding:0}
-.wp-block-cover{margin:0;margin-bottom:4rem;padding:4rem 0}
+.wp-block-cover{margin:0;margin-bottom:0;padding:4rem 0}
 .hide-citation{padding-bottom:0}
 .full-border-radius{border-top-left-radius:1rem;border-top-right-radius:1rem;border-bottom-right-radius:1rem;border-bottom-left-radius:1rem;border:.25rem solid rgba(255,255,255,0.425)}
 .top-border-radius{border-top-left-radius:1rem;border-top-right-radius:1rem}
