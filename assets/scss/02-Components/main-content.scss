@@ -12,7 +12,7 @@
     background-position: center; 
 } 
 
-.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single:not(.ast-related-post), .ast-article-single {
+.ast-container, .ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single:not(.ast-related-post), .ast-article-single {
     margin-top: 0;
     border-radius: var(--body-border-radius);
     background-color: var(--body-article-color);
