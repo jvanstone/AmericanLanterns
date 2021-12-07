@@ -414,7 +414,7 @@ p { font-size: 1.5rem; }
 
 .entry-content p { margin-bottom: .5rem; }
 
-.entry-content p:last-child { margin-bottom: 5rem; }
+.entry-content p:last-child { margin-bottom: 2rem; }
 
 p.add-to-top { margin-top: 4rem !important; }
 
