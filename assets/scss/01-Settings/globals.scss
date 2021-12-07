@@ -7,6 +7,9 @@
 
     /* Colour Settings */
     
+    --light-blue: #97e2ff;
+    --main-blue: #0398f4;
+    --dark-blue: #182c6b;
  
     --primary-green: #11A797;
     --primary-dark-green: #12636C;
@@ -63,7 +66,7 @@
     --main-menu-background-color: inherit;
     --main-menu-sub-menu-background-color: inherit;
 
-    --main-menu-hover: var(--primary-yellow);
+    --main-menu-hover: var(--main-blue);
     --main-menu-hover-background: inherit;
 
     --main-menu-font: var(--primary-font);
