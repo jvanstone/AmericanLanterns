@@ -13,23 +13,26 @@
 
 }
 
-.top-border-radius {
+.top-border-radius, .top-border-box {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+   
     border: .25rem solid var(--primary-green);
 }
+
+.top-border-box {    border-bottom: 0; }
 
 .middle-border-box {
     border-left: .25rem solid var(--primary-green);
     border-right: .25rem solid var(--primary-green);
 }
-.bottom-border-radius {
+.bottom-border-radius, .bottom-border-box {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border: .25rem solid var(--primary-green);
-
 }
 
+.bottom-border-box {   border-top: 0; }
 
 .border1 {
     border: 1px solid var(--primary-black);
