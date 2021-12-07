@@ -16,13 +16,17 @@
 .top-border-radius {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-
+    border: .25rem solid var(--primary-green);
 }
 
+.middle-border {
+    border-left: .25rem solid var(--primary-green);
+    border-right: .25rem solid var(--primary-green);
+}
 .bottom-border-radius {
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    
+    border: .25rem solid var(--primary-green);
 
 }
 
