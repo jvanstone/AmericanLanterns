@@ -96,7 +96,7 @@ footer .fas,footer .far{font-size:1rem;color:var(--primary-white);margin:.5rem}
 .hide-citation{padding-bottom:0}
 .full-border-radius{border-top-left-radius:1rem;border-top-right-radius:1rem;border-bottom-right-radius:1rem;border-bottom-left-radius:1rem;border:.25rem solid var(--primary-green)}
 .top-border-radius{border-top-left-radius:1rem;border-top-right-radius:1rem;border:.25rem solid var(--primary-green)}
-.middle-border{border-left:.25rem solid var(--primary-green);border-right:.25rem solid var(--primary-green)}
+.middle-border-box{border-left:.25rem solid var(--primary-green);border-right:.25rem solid var(--primary-green)}
 .bottom-border-radius{border-bottom-right-radius:1rem;border-bottom-left-radius:1rem;border:.25rem solid var(--primary-green)}
 .border1{border:1px solid var(--primary-black)}
 .border-full{border:.1rem solid var(--primary-purple)}
