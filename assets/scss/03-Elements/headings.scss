@@ -23,11 +23,12 @@ h1, .entry-content h1, h1.entry-title {
 
 /** Used for the Gutenburg slider **/
 h1.caption-wrap {
-	background: rgba(0, 0, 0, 0.527) !important;
+	//background: rgba(0, 0, 0, 0.527) !important;
 	line-height: 1.4em;
     font-size: var(--h1-font-size);
 	font-weight: 900;
     color: var(--primary-yellow)!important;
+    text-shadow: 2px 2px 2px #000;
 }
 
 h2 {
