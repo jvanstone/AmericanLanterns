@@ -5,7 +5,7 @@
 
 **************/
 
-h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6, .site-title, .site-title a {
+h1, .entry-content h1, h2, .entry-content h2, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6, .site-title, .site-title a {
     margin: 2rem 0;
     font-family: var(--heading-font);
     font-weight: var(--h1-font-weight);
@@ -40,6 +40,10 @@ h2 {
     text-transform: var(--h1-text-transform);  
     border-bottom: .12em solid var(--primary-purple);
 }
+
+h3, .entry-content h3 { 
+    font-family: var(--secondary-font);
+    color: var(--primary-green); }
 
 .entry-content h2 { 
     color: var(--h2-color);
@@ -90,7 +94,7 @@ h2.announce {
     .wp-block-cover 
 
     h3:not(.has-text-color) {
-        color: var(--primary-green);      
+        color: var(--main-blue);      
         
     }
 

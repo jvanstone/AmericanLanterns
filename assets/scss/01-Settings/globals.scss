@@ -33,7 +33,7 @@
 
     /* Font Settings */
     --primary-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Red Hat Display', sans-serif;
     --cursive-font: 'Libre Baskerville', serif;
 
 
@@ -69,7 +69,7 @@
     --main-menu-hover: var(--main-blue);
     --main-menu-hover-background: inherit;
 
-    --main-menu-font: var(--primary-font);
+    --main-menu-font: 'Red Hat Display', sans-serif;
     --main-menu-font-size: 1.2rem;
     --main-menu-weight: 700;
     --main-menu-border: inherit;
@@ -137,6 +137,7 @@
     --primary-button-font-weight: 600;
     --primary-button-text-transform: capitalize;
     --primary-button-font-size: 1.25rem;
+    --primary-button-font-family: var(--secondary-font);
 
     --header-button-background-color: var(--gradient-yellow);
     --header-button-text-color: var(--primary-black);
