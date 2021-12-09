@@ -187,3 +187,28 @@ add_filter( 'woocommerce_checkout_coupon_message', 'woocommerce_rename_coupon_me
 
 
 remove_action( 'woocommerce_order_details_after_order_table', 'woocommerce_order_again_button' );
+
+
+/**
+ * Make the Payment for Tickets Complete
+ *
+ * @param number $order_id // The Order Id.
+ */
+function alf_auto_complete_by_payment_method( $order_id ) {
+
+	if ( ! $order_id ) {
+		return;
+	}
+
+	global $product;
+	$order = wc_get_order( $order_id );
+
+	if ( 'processing' === $order->data['status'] ) {
+		$payment_method = $order->get_payment_method();
+		if ( 'cod' !== $payment_method ) {
+			$order->update_status( 'completed' );
+		}
+	}
+
+}
+add_action( 'woocommerce_order_status_changed', 'alf_auto_complete_by_payment_method' );
