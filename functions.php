@@ -213,3 +213,22 @@ function alf_auto_complete_by_payment_method( $order_id ) {
 }
 add_action( 'woocommerce_order_status_changed', 'alf_auto_complete_by_payment_method' );
 
+function fooevents_display_date_on_single() {
+	global $post;
+	$product = wc_get_product( $post->ID );
+	$start_date = $product->get_meta( 'WooCommerceEventsDate' );
+	$end_date = $product->get_meta( 'WooCommerceEventsEndDate' );
+	if ( $end_date ) {
+	  printf(
+		'<h3>%s</h3>',
+		esc_html( $start_date . ' - ' . $end_date )
+	  );
+	} else if( $start_date ) {
+	  printf(
+		'<h3>%s</h3>',
+		esc_html( $start_date )
+	  );
+	}
+  }
+  add_action( 'woocommerce_single_product_summary', 'fooevents_display_date_on_single' );
+  
