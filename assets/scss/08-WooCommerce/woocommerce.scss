@@ -216,7 +216,7 @@
                     h3 { color: var(--primary-black)!important;}
                     .woocommerce-billing-fields__field-wrapper, .woocommerce-order-details { 
                        
-
+                        .woocommerce-input-wrapper { color: var(--primary-black); }
                         p label { 
                             color: var(--primary-green); 
                     
@@ -373,3 +373,9 @@
 	padding: 1em;
 	border-radius: 0;
 }
+
+/**   Foo Events **/
+
+.pa_ticket-type, .fooevents_bookings_date_val__trans { color: var(--primary-green); font-size: 1rem;}
+
+.fooevents-attendee { color: var(--primary-green); }
