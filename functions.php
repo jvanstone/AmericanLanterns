@@ -417,7 +417,6 @@ function woo_remove_product_tabs( $tabs ) {
 
 }
 
-<?php
 // Display variations dropdowns on shop page for variable products
  add_filter( 'woocommerce_loop_add_to_cart_link', 'woo_display_variation_dropdown_on_shop_page' );
  
@@ -497,4 +496,3 @@ function woo_remove_product_tabs( $tabs ) {
 	}
 	 
 }
-
