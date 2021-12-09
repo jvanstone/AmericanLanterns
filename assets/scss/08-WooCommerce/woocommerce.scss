@@ -266,7 +266,7 @@
                                 -ms-user-select: none;
                                 user-select: none;
                                 -webkit-user-select: none;
-                                color:#666!important;
+                                color:#666;
                             }
                         }
                     }   
@@ -385,6 +385,11 @@ dd.variation-Date p { font-size: 1rem; }
     margin: 0 -20px 20px;
     background-color: #000;
     border-bottom: 1px solid #ebebeb;
+}
+
+.select2-results__option {
+  
+    color:#666!important;
 }
 
 /**   Foo Events **/
