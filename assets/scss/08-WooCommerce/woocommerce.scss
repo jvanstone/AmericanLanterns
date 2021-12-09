@@ -266,7 +266,7 @@
                                 -ms-user-select: none;
                                 user-select: none;
                                 -webkit-user-select: none;
-                                color:#666;
+                                color:#666!important;
                             }
                         }
                     }   
@@ -378,6 +378,8 @@
     background-color: #000;
     color: var(--primary-yellow);
 }
+
+dd.variation-Date p { font-size: 1rem; }
 
 .woocommerce-cart .cart-collaterals .cart_totals>h2, .woocommerce-cart .cart-collaterals .cross-sells>h2 {
     margin: 0 -20px 20px;
