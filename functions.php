@@ -481,3 +481,11 @@ function njengah_display_variation_dropdown_on_shop_page() {
 	   );
 	   }
 	}
+
+	add_action( 'woocommerce_single_product_summary', 'hide_add_to_cart_button_variable_product', 1, 0 );
+	function hide_add_to_cart_button_variable_product() {
+	
+		// Removing add to cart button and quantities only
+		remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation_add_to_cart_button', 20 );
+	}
+	
