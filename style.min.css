@@ -380,6 +380,8 @@ h1{font-size:calc(var(--h1-font-size) * .65) !important}
 .fc-view-container{background:white;border:solid 1rem var(--primary-green);color:black}
 article.type-eventer{border:solid 1rem var(--primary-green)}
 .mobile-tablet-only{padding:0}
+.has-huge-font-size{font-size:1.15rem}
+.woocommerce-page form.woocommerce-checkout{background-color:#fff;border:solid 2rem var(--primary-green)}
 }@keyframes fadeIn{0%{opacity:0}
 100%{opacity:1}
 }@-webkit-keyframes fadeIn{0%{opacity:0}

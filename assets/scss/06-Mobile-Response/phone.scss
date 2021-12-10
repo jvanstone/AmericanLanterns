@@ -91,4 +91,11 @@ article.type-eventer {
     border: solid 1rem var(--primary-green);
 }
 .mobile-tablet-only { padding: 0;}
+
+.has-huge-font-size { font-size: 1.15rem; }
+
+.woocommerce-page form.woocommerce-checkout {
+    background-color: #fff;
+    border: solid 2rem var(--primary-green);
+}
  }
