@@ -45,3 +45,11 @@
 .no-border {border-width: 0;}
 
 .green-border { border: solid 2rem var(--primary-green);}
+
+
+.footer-widget-area {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-top: 0px solid var(--primary-white);
+    border-bottom: 1px solid var(--primary-green);
+}
