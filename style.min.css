@@ -379,7 +379,7 @@ h1{font-size:calc(var(--h1-font-size) * .65) !important}
 .fc-view-container{background:white;border:solid 1rem var(--primary-green);color:black}
 article.type-eventer{border:solid 1rem var(--primary-green)}
 .mobile-tablet-only{padding:0}
-.has-huge-font-size{font-size:1.15rem}
+.has-huge-font-size{font-size:1.15rem !important}
 .woocommerce-page form.woocommerce-checkout{background-color:#fff;border:solid 2rem var(--primary-green)}
 .woocommerce-page form.woocommerce-checkout{padding:0}
 }@keyframes fadeIn{0%{opacity:0}
