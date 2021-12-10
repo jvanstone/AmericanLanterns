@@ -236,3 +236,10 @@ function woo_remove_product_tabs( $tabs ) {
 	return $tabs;
 }
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+
+
+
+/** Disable Ajax Call from WooCommerce */
+add_action( 'wp_enqueue_scripts', 'dequeue_woocommerce_cart_fragments', 11); 
+function dequeue_woocommerce_cart_fragments() { if (is_front_page()) wp_dequeue_script( 'wc-cart-fragments' ); }
+
