@@ -243,3 +243,33 @@ add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 add_action( 'wp_enqueue_scripts', 'dequeue_woocommerce_cart_fragments', 11); 
 function dequeue_woocommerce_cart_fragments() { if (is_front_page()) wp_dequeue_script( 'wc-cart-fragments' ); }
 
+/**
+ * Add Spam Disclaimer
+ */
+function add_spam_disclaimer() {
+	return esc_html__( '<h4 style="color: #000;">All Tickets are being emailed. Please check your spam folder for your tickets and confimation of purchase.</h4>' );
+}
+add_action( 'woocommerce_checkout_after_terms_and_conditions', 'add_spam_disclaimer', 10, 0 );
+
+
+/**
+ * Change Thank You Message
+ */
+function fl_thank_you_checkout() {
+
+	return esc_html__( 'Thank you! Your order has been received. Please check your spam folder for your tickets. Please note: each attendee will need to provide their own QR code which have been provided to you in your emailed tickets. ', 'woocommerce' );
+
+}
+add_filter( 'woocommerce_thankyou_order_received_text', 'fl_thank_you_checkout' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+
+
+/**
+ *  Remove Google ReCaptcha code/badge everywhere apart from select pages
+ */
+add_action('wp_print_scripts', function () {
+	global $post;
+	if ( is_a( $post, 'WP_Post' ) && !has_shortcode( $post->post_content, 'contact-form-7') ) {
+		wp_dequeue_script( 'google-recaptcha' );
+		wp_dequeue_script( 'wpcf7-recaptcha' );
+	}
+});
