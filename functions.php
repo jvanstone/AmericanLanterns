@@ -261,3 +261,15 @@ function fl_thank_you_checkout() {
 
 }
 add_filter( 'woocommerce_thankyou_order_received_text', 'fl_thank_you_checkout' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+
+
+/** 
+ *  Remove Google ReCaptcha code/badge everywhere apart from select pages
+ */
+add_action('wp_print_scripts', function () {
+    global $post;
+    if ( is_a( $post, 'WP_Post' ) && !has_shortcode( $post->post_content, 'contact-form-7') ) {
+        wp_dequeue_script( 'google-recaptcha' );
+        wp_dequeue_script( 'wpcf7-recaptcha' );
+    }
+});
