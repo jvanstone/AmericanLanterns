@@ -247,7 +247,7 @@ function dequeue_woocommerce_cart_fragments() { if (is_front_page()) wp_dequeue_
  * Add Spam Disclaimer
  */
 function add_spam_disclaimer() {
-	return esc_html__( '<h4 style="color: #000;">All Tickets are being emailed. Please check your spam folder for your tickets and confimation of purchase.</h4>' );
+	_e( '<h4 style="color: #000;">All Tickets are being emailed. Please check your spam folder for your tickets and confimation of purchase.</h4>' );
 }
 add_action( 'woocommerce_checkout_after_terms_and_conditions', 'add_spam_disclaimer', 10, 0 );
 
@@ -261,15 +261,3 @@ function fl_thank_you_checkout() {
 
 }
 add_filter( 'woocommerce_thankyou_order_received_text', 'fl_thank_you_checkout' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
-
-
-/**
- *  Remove Google ReCaptcha code/badge everywhere apart from select pages
- */
-add_action('wp_print_scripts', function () {
-	global $post;
-	if ( is_a( $post, 'WP_Post' ) && !has_shortcode( $post->post_content, 'contact-form-7') ) {
-		wp_dequeue_script( 'google-recaptcha' );
-		wp_dequeue_script( 'wpcf7-recaptcha' );
-	}
-});
