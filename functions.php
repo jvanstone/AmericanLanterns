@@ -278,5 +278,11 @@ add_action('wp_print_scripts', function () {
 // To change add to cart text on single product page
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
 function woocommerce_custom_single_add_to_cart_text() {
-    return __( 'Buy Now', 'woocommerce' ); 
+    return __( 'Buy Now', 'woocommerce' );
 }
+
+
+/**
+ * Remove related products output
+ */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
