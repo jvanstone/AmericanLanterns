@@ -280,9 +280,3 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_s
 function woocommerce_custom_single_add_to_cart_text() {
     return __( 'Buy Now', 'woocommerce' );
 }
-
-
-/**
- * Remove related products output
- */
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
