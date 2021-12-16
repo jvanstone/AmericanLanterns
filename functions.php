@@ -64,14 +64,14 @@ function add_footer_info() {
 </div>
 	<?php
 }
-//add_action( 'astra_content_bottom', 'add_footer_info' );
+
 
 
 /**
  * Add "Confirm Email Address" Field @ WooCommerce Checkout
  *
  */
-function bbloomer_add_email_verification_field_checkout( $fields ) {
+function al_add_email_verification_field_checkout( $fields ) {
 
 	$fields['billing']['billing_email']['class'] = array( 'form-row-first' );
 
@@ -85,7 +85,7 @@ function bbloomer_add_email_verification_field_checkout( $fields ) {
 
 	return $fields;
 }
-add_filter( 'woocommerce_checkout_fields', 'bbloomer_add_email_verification_field_checkout' );
+add_filter( 'woocommerce_checkout_fields', 'al_add_email_verification_field_checkout' );
 
 	/**
 	 * 3) Generate error message if field values are different.
@@ -267,16 +267,24 @@ add_filter( 'woocommerce_thankyou_order_received_text', 'fl_thank_you_checkout' 
  *  Remove Google ReCaptcha code/badge everywhere apart from select pages
  */
 add_action('wp_print_scripts', function () {
-    global $post;
-    if ( is_a( $post, 'WP_Post' ) && !has_shortcode( $post->post_content, 'contact-form-7') ) {
-        wp_dequeue_script( 'google-recaptcha' );
-        wp_dequeue_script( 'wpcf7-recaptcha' );
-    }
+	global $post;
+	if ( is_a( $post, 'WP_Post' ) && !has_shortcode( $post->post_content, 'contact-form-7') ) {
+		wp_dequeue_script( 'google-recaptcha' );
+		wp_dequeue_script( 'wpcf7-recaptcha' );
+	}
 });
 
 
-// To change add to cart text on single product page
-add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
+/**
+ * To change add to cart text on single product page
+ */
 function woocommerce_custom_single_add_to_cart_text() {
-    return __( 'Buy Now', 'woocommerce' );
+	return __( 'Buy Now', 'woocommerce' );
 }
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
+
+
+/**
+ * Remove related products output
+ */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
