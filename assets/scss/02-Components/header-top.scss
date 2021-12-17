@@ -12,26 +12,10 @@
     padding-bottom: .5rem;
     p { 
         font-size: .95rem;  
-        color: var(--primary-white);
+        color: var(--primary-black);
     }
 
-    a { color: var(--primary-white); }
+    a { color: var(--primary-black); }
 }
 
 
-.ast-site-header-cart .widget_shopping_cart, .woocommerce .ast-site-header-cart .widget_shopping_cart {
-    background-color: #000;
-    position: absolute;
-    top: 100%;
-    width: 280px;
-    z-index: 999999;
-    font-size: .875em;
-    left: -999em;
-    display: block;
-    line-height: 1.618;
-    box-shadow: 0 2px 8px 1px rgba(0,0,0,.07);
-    transition: all .3s ease;
-    border: 2px solid #e6e6e6;
-    opacity: 0;
-    visibility: hidden;
-}
