@@ -287,3 +287,11 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_s
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
 
+/**
+ * Add a Back Button to Woo Commerce. 
+ */
+function act_add_back_button() {
+	global $product;
+	echo ' <button type="button" onclick="history.back();"> Go back </button> '; 
+  }
+add_action( 'woocommerce_after_single_product_summary', 'act_add_back_button', 10 );
