@@ -285,3 +285,23 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_s
  * Remove related products output
  */
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
+
+/**
+ * @snippet       Continue Shopping button @ Single Product Page
+ * @how-to        Watch tutorial @ https://businessbloomer.com/?p=19055
+ * @sourcecode    https://businessbloomer.com/?p=72772
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 3.1.1
+ * with 2018 additions - by itdoescompute.com.au
+ */
+ 
+function bbloomer_continue_shopping_button() {
+	if ( wp_get_referer() ) echo '<a class="button continue" href="./mamas-teas/">Continue Shopping</a>';
+  }
+  /*--code from web ^^ plus my additions below--*/
+  add_action( 'woocommerce_before_single_product', 'bbloomer_view_cart_button', 32 );
+   
+  function bbloomer_view_cart_button() {
+	if ( wp_get_referer() ) echo '<a class="button viewcart" href="./cart/">View Cart</a>';
+  }
